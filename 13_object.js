@@ -11,4 +11,7 @@ const jsuser= {  //object creation
 console.log(jsuser.email)
 console.log(jsuser["email"])
 console.log(jsuser[mysym])
-
+jsuser.email="mayank.com"
+console.log(jsuser.email)
+Object.freeze(jsuser) //doesn't allow to make any changes 
+jsuser.email="saket.com"
