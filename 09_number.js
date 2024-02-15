@@ -12,6 +12,6 @@ console.log(Math.round(2.366))
 console.log(Math.ceil(2.4))
 console.log(Math.round(Math.random()))
 
-const min=10
-const max=30
-console.log(Math.floor(Math.random()*(max-min+1))+min)
+const min=10  // minimum number
+const max=30    // maximum number
+console.log(Math.floor(Math.random()*(max-min+1))+min)  // this is the formula to generate the random number between given minimum and maximum

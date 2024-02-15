@@ -24,7 +24,7 @@
  const myFunction=function(){  //this is function
     console.log("hello world")
  }
- console.log(typeof myFunction)
+ console.log(typeof myFunction) //output=function object
  const val=null
  console.log(typeof val)  // output= object
 

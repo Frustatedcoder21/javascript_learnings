@@ -14,6 +14,6 @@ let userone={
 let usertwo=userone
 console.log(usertwo.email)
 console.log(userone.email)
-usertwo.email="hello@gmail.com"
+usertwo.email="hello@gmail.com" // on changing usertwo email user one email also changes  this is because both of them are refering to the same thing so change in one lead to change in other
 console.log(usertwo.email)
 console.log(userone.email)
